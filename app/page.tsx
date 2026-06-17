@@ -1,65 +1,60 @@
-import Image from "next/image";
+// app/page.tsx
+import Hero from "../components/Hero";
 
-export default function Home() {
+export default function HomePage() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+    <>
+      <Hero />
+
+      <section className="w-full bg-[#141414] px-8 sm:px-16 lg:px-[250px] py-20 sm:py-28">
+        <div className="w-full text-left">
+          <h2 className="text-white text-4xl sm:text-5xl font-bold mb-8">
+            About Me
+          </h2>
+
+          <p className="text-white text-lg sm:text-xl lg:text-2xl leading-relaxed">
+            My name is Steven Pham but I go by “Pham.” By trade, I am a
+            Registered Dietitian Nutritionist (RDN) with a Master’s degree in
+            nutrition and I work as a full-time performance nutrition coach. In
+            addition to being a healthcare professional, I am a national level
+            powerlifter in the 74kg open class with 12 meets worth of experience
+            across four different powerlifting federations.
+
+            <br />
+            <br />
+
+            In 2019, I realized there was a need for nutrition services in the
+            powerlifting/fitness space so I started a nutrition coaching
+            business and quickly became passionate about working with committed
+            clients who have a foundation in strength training. Due to the power
+            of social media and referrals, I have the honor and privilege of
+            working with some of the best strength athletes in powerlifting,
+            including national and international champions across multiple
+            federations (USAPL, Powerlifting America, IPF, USPA, and PLU). I
+            have also helped secure multiple gold medals at the national and
+            international stage for Americans as well as clients abroad.
+
+            <br />
+            <br />
+
+            My philosophy is simple: nutrition is a key component of recovery
+            for strength athletes and optimal recovery over time leads to
+            enhanced athletic performance and body composition improvement. I
+            coach my clients on flexible dieting principles backed with nutrition
+            science to aid in recovery, body composition improvement and
+            athletic performance based on their individual goals, while being
+            mindful of their individual timelines.
+
+            <br />
+            <br />
+
+            I am hoping that if we have the opportunity to work together, I can
+            help you secure personal records, improve your health markers,
+            enhance your body composition and improve your relationship with
+            food! Please contact me if you are needing professional help!
           </p>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+      </section>
+    </>
   );
 }
