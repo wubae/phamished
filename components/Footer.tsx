@@ -10,9 +10,9 @@ export default function Footer() {
           <Image
             src="/logo.png"
             alt="Logo"
-            width={60}
+            width={45}
             height={45}
-            className="object-contain"
+            className="w-auto h-auto object-contain"
           />
         </Link>
         <span className="text-[1.1rem] font-semibold">Phamished 2026</span>

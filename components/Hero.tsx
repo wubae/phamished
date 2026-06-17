@@ -122,6 +122,7 @@ export default function Hero() {
               alt={`Image ${currentIndex + 1}`}
               fill
               className="object-cover"
+              sizes="360px"
             />
 
             {/* Close Button */}

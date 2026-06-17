@@ -1,5 +1,47 @@
 // app/page.tsx
+import Image from "next/image";
 import Hero from "../components/Hero";
+import Masonry from "../components/Masonry";
+
+const masonryItems = [
+  {
+    id: "1",
+    img: "/mason/1.png",
+    url: "https://example.com/",
+    height: 800,
+  },
+  {
+    id: "2",
+    img: "/mason/2.jpg",
+    url: "https://example.com/",
+    height: 1000,
+  },
+  {
+    id: "3",
+    img: "/mason/3.png",
+    url: "https://example.com/",
+    height: 700,
+  },
+  {
+    id: "4",
+    img: "/mason/4.png",
+    url: "https://example.com/",
+    height: 800,
+  },
+  {
+    id: "5",
+    img: "/mason/5.jpeg",
+    url: "https://example.com/",
+    height: 1000,
+  },
+  {
+    id: "6",
+    img: "/mason/6.jpg",
+    url: "https://example.com/",
+    height: 600,
+  },
+  // add more items if you want
+]
 
 export default function HomePage() {
   return (
@@ -53,6 +95,73 @@ export default function HomePage() {
             enhance your body composition and improve your relationship with
             food! Please contact me if you are needing professional help!
           </p>
+        </div>
+      </section>
+
+      {/* Masonry Section */}
+      <section className="w-full bg-[#141414] px-4 sm:px-16 lg:px-[250px] py-20 sm:py-28">
+        <div className="w-full text-left">
+          <h2 className="text-white text-4xl sm:text-5xl font-bold mb-8">
+            Testimonials
+          </h2>
+        </div>
+
+        {/* Mobile fallback grid */}
+        <div className="grid grid-cols-1 gap-4 md:hidden">
+          {masonryItems.map((item) => (
+            <div
+              key={item.id}
+              className="relative block w-full h-[420px] overflow-hidden rounded-xl cursor-default"
+            >
+              <Image
+                src={item.img}
+                alt={`Testimonial ${item.id}`}
+                fill
+                className="object-cover"
+                sizes="100vw"
+              />
+            </div>
+          ))}
+        </div>
+
+        {/* Desktop / tablet React Bits Masonry */}
+        <div className="relative hidden md:block w-full h-[900px] lg:h-[800px] overflow-visible">
+          <Masonry
+            items={masonryItems}
+            ease="power3.out"
+            duration={0.6}
+            stagger={0.05}
+            animateFrom="bottom"
+            scaleOnHover={true}
+            hoverScale={0.95}
+            blurToFocus={true}
+            colorShiftOnHover={false}
+          />
+        </div>
+      </section>
+
+      <section className="w-full bg-[#141414] px-8 sm:px-16 lg:px-[250px] py-20 sm:py-28">
+        <div className="w-full text-left">
+          <h2 className="text-white text-4xl sm:text-5xl font-bold mb-8">
+            Services
+          </h2>
+          <h3 className="text-white text-2xl sm:text-2xl font-bold mb-8">
+            My standard individual adult nutrition coaching rate is $499 USD upfront for the first three months and $164 per month thereafter.
+          </h3>
+          <h4 className="text-white text2xl sm:text-2xl font-bold mb-8 underline">
+            Discount for qualified students, educators, military, first responders, and healthcare workers: 
+            $469 USD upfront for the first three months and $150/mo thereafter***
+          </h4>
+
+          <p className="text-white text-lg sm:text-xl lg:text-2xl leading-relaxed">
+            This is a fixed rate and will not change as long as we continue working together. Preferred payment methods are Venmo, Stripe 
+            (accepts credit card and international), and Zelle. Services provided include (and are not limited to): nutrition goal setting, 
+            prescribed calories & macronutrients, meal planning, weight monitoring, nutrition interventions, dietary intake log assessments, 
+            competition preparation, weight cut protocols, hydration techniques, gameday nutrition, grocery recommendations, cooking 
+            technique/equipment recommendations, progress photo assessments, sleep monitoring, cardio recommendations, nutrition tips for 
+            traveling and supplementation protocols.
+          </p>
+
         </div>
       </section>
     </>
