@@ -14,7 +14,7 @@ const masonryItems = [
   },
   {
     id: "2",
-    img: "/mason/2.jpg",
+    img: "/mason/2.png",
     url: "https://example.com/",
     height: 1000,
   },
@@ -22,25 +22,49 @@ const masonryItems = [
     id: "3",
     img: "/mason/3.png",
     url: "https://example.com/",
-    height: 700,
+    height: 900,
   },
   {
     id: "4",
     img: "/mason/4.png",
     url: "https://example.com/",
-    height: 800,
+    height: 900,
   },
   {
     id: "5",
-    img: "/mason/5.jpeg",
+    img: "/mason/5.png",
     url: "https://example.com/",
     height: 1000,
   },
   {
     id: "6",
-    img: "/mason/6.jpg",
+    img: "/mason/6.png",
     url: "https://example.com/",
-    height: 600,
+    height: 1000,
+  },
+    {
+    id: "7",
+    img: "/mason/7.png",
+    url: "https://example.com/",
+    height: 900,
+  },
+    {
+    id: "8",
+    img: "/mason/8.png",
+    url: "https://example.com/",
+    height: 900,
+  },
+    {
+    id: "9",
+    img: "/mason/9.png",
+    url: "https://example.com/",
+    height: 900,
+  },
+    {
+    id: "10",
+    img: "/mason/10.png",
+    url: "https://example.com/",
+    height: 800,
   },
   // add more items if you want
 ]
