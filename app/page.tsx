@@ -2,6 +2,8 @@
 import Image from "next/image";
 import Hero from "../components/Hero";
 import Masonry from "../components/Masonry";
+import PurpleButton from "../components/PurpleButton";
+import GreenButton from "../components/GreenButton";
 
 const masonryItems = [
   {
@@ -160,8 +162,21 @@ export default function HomePage() {
             competition preparation, weight cut protocols, hydration techniques, gameday nutrition, grocery recommendations, cooking 
             technique/equipment recommendations, progress photo assessments, sleep monitoring, cardio recommendations, nutrition tips for 
             traveling and supplementation protocols.
+            
           </p>
 
+          <br></br>
+
+          <PurpleButton href="https://www.instagram.com/phamishedcoach/">
+          DM me on Instagram to get the conversation started!
+          </PurpleButton>
+
+          <br></br>
+          <br></br>
+
+          <GreenButton href="https://forms.gle/uR9ZQ8sAPUZk6UH4A">
+          New Client Questionaire
+          </GreenButton>
         </div>
       </section>
     </>
