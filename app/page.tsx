@@ -81,46 +81,91 @@ export default function HomePage() {
           </h2>
 
           <p className="text-white text-lg sm:text-xl lg:text-2xl leading-relaxed">
-            My name is Steven Pham but I go by “Pham.” By trade, I am a
-            Registered Dietitian Nutritionist (RDN) with a Master’s degree in
-            nutrition and I work as a full-time performance nutrition coach. In
-            addition to being a healthcare professional, I am a national level
-            powerlifter in the 74kg open class with 12 meets worth of experience
-            across four different powerlifting federations.
+            My name is Steven Pham but I go by “Pham.” I am a Registered Dietitian Nutritionist (RDN) with a Master’s degree 
+            in Nutrition Sciences and a full-time performance nutrition coach. In today's world, anyone can claim to be a 
+            nutritionist even without any credentials, but the dietitian title is nationally certified and protected while 
+            also requiring dietitians to log 15 hours of continuing education yearly. In addition to being a healthcare professional, 
+            I am a national level powerlifter in the 74kg open class with 12 meets worth of experience across multiple powerlifting 
+            federations. My most recent competition was at Powerlifting America Nationals 2025 in my hometown of Atlanta where I was 
+            able to secure a perfect 9 for 9 day (27 white lights) while also handling 20 athletes who competed in the same tournament! 
+            I am currently balancing strength training in addition to competitive pickleball and HYROX training to incorporate more 
+            cardio and competitions into my lifestyle.
 
-            <br />
-            <br />
+            <br/><br/>
 
-            In 2019, I realized there was a need for nutrition services in the
-            powerlifting/fitness space so I started a nutrition coaching
-            business and quickly became passionate about working with committed
-            clients who have a foundation in strength training. Due to the power
-            of social media and referrals, I have the honor and privilege of
-            working with some of the best strength athletes in powerlifting,
-            including national and international champions across multiple
-            federations (USAPL, Powerlifting America, IPF, USPA, and PLU). I
-            have also helped secure multiple gold medals at the national and
-            international stage for Americans as well as clients abroad.
-
-            <br />
-            <br />
-
-            My philosophy is simple: nutrition is a key component of recovery
-            for strength athletes and optimal recovery over time leads to
-            enhanced athletic performance and body composition improvement. I
-            coach my clients on flexible dieting principles backed with nutrition
-            science to aid in recovery, body composition improvement and
-            athletic performance based on their individual goals, while being
-            mindful of their individual timelines.
-
-            <br />
-            <br />
-
-            I am hoping that if we have the opportunity to work together, I can
-            help you secure personal records, improve your health markers,
-            enhance your body composition and improve your relationship with
-            food! Please contact me if you are needing professional help!
+            Back in 2019, I realized there was a need for nutrition services in the strength sport space so I started a nutrition coaching 
+            business and quickly became passionate about working with committed clients who have a foundation in strength training. 
+            Due to the power of social media and referrals, I have the honor and privilege of working with some of the best strength 
+            athletes in powerlifting, including national and international champions across multiple federations (IPF, Powerlifting America, 
+            USAPL, USPA, & PLU). I have also helped secure multiple gold medals at the national and international stage for both American 
+            and international clients! I currently live in Las Vegas where my mission is to provide sustainable and science based approaches 
+            to dieting to help people get closer to their competitive or body composition goals.
           </p>
+        </div>
+      </section>
+
+      <section className="w-full bg-[#141414] px-8 sm:px-16 lg:px-[250px] py-20 sm:py-28">
+        <div className="w-full text-left">
+          <h2 className="text-white text-4xl sm:text-5xl font-bold mb-8">
+            Philosophy & Coaching Strategy
+          </h2>
+
+          <p className="text-white text-lg sm:text-xl lg:text-2xl leading-relaxed">
+            Nutrition is a key component of recovery for athletes and optimal recovery over time leads to 
+            enhanced athletic performance and body composition improvement. I coach my clients on flexible 
+            dieting principles backed with nutrition science to aid in recovery, body composition improvement 
+            and athletic performance all based on their individual goals and timelines.
+          </p>
+        </div>
+      </section>
+
+      <section className="w-full bg-[#141414] px-8 sm:px-16 lg:px-[250px] py-20 sm:py-28">
+        <div className="w-full text-left">
+          <h2 className="text-white text-4xl sm:text-5xl font-bold mb-8">
+            Services
+          </h2>
+
+          <p className="text-white text-lg sm:text-xl lg:text-2xl leading-relaxed">
+            Services provided include (and are not limited to) nutrition goal setting, prescribed calories & macronutrients, 
+            meal planning, weight monitoring, nutrition interventions, dietary intake log assessments, competition preparation, 
+            weight cut protocols, hydration techniques, gameday nutrition, grocery recommendations, cooking technique/equipment 
+            recommendations, progress photo assessments, sleep monitoring, cardio recommendations, nutrition tips for traveling 
+            and supplementation protocols.
+          </p>
+        </div>
+      </section>
+
+      <section className="w-full bg-[#141414] px-8 sm:px-16 lg:px-[250px] py-20 sm:py-28">
+        <div className="w-full text-left">
+          <h2 className="text-white text-4xl sm:text-5xl font-bold mb-8">
+            Rates
+          </h2>
+
+          <p className="text-white text-lg sm:text-xl lg:text-2xl leading-relaxed">
+            My standard individual adult nutrition coaching rate is $524 USD upfront for the first three months and $169 per month thereafter.
+            
+            <br/><br/>
+
+            Discount for qualified students, educators, military, first responders, and healthcare workers:  $474 USD upfront for the first 
+            three months and $159/mo thereafter. 
+            
+            <br/><br/>
+
+            This is a fixed rate and will not change as long as we continue working together. 
+            Accepted payment methods are Stripe (accepts credit card and international payments), Venmo, and Zelle.
+          </p>
+
+          <br/><br/>
+
+          <PurpleButton href="https://www.instagram.com/phamishedcoach/">
+            DM me on Instagram to get the conversation started!
+          </PurpleButton>
+
+           <br/><br/>
+
+          <GreenButton href="https://forms.gle/uR9ZQ8sAPUZk6UH4A">
+            New Client Questionaire
+          </GreenButton>
         </div>
       </section>
 
@@ -163,44 +208,6 @@ export default function HomePage() {
             blurToFocus={true}
             colorShiftOnHover={false}
           />
-        </div>
-      </section>
-
-      <section className="w-full bg-[#141414] px-8 sm:px-16 lg:px-[250px] py-20 sm:py-28">
-        <div className="w-full text-left">
-          <h2 className="text-white text-4xl sm:text-5xl font-bold mb-8">
-            Services
-          </h2>
-          <h3 className="text-white text-2xl sm:text-2xl font-bold mb-8">
-            My standard individual adult nutrition coaching rate is $499 USD upfront for the first three months and $164 per month thereafter.
-          </h3>
-          <h4 className="text-white text2xl sm:text-2xl font-bold mb-8 underline">
-            Discount for qualified students, educators, military, first responders, and healthcare workers: 
-            $469 USD upfront for the first three months and $150/mo thereafter***
-          </h4>
-
-          <p className="text-white text-lg sm:text-xl lg:text-2xl leading-relaxed">
-            This is a fixed rate and will not change as long as we continue working together. Preferred payment methods are Venmo, Stripe 
-            (accepts credit card and international), and Zelle. Services provided include (and are not limited to): nutrition goal setting, 
-            prescribed calories & macronutrients, meal planning, weight monitoring, nutrition interventions, dietary intake log assessments, 
-            competition preparation, weight cut protocols, hydration techniques, gameday nutrition, grocery recommendations, cooking 
-            technique/equipment recommendations, progress photo assessments, sleep monitoring, cardio recommendations, nutrition tips for 
-            traveling and supplementation protocols.
-            
-          </p>
-
-          <br></br>
-
-          <PurpleButton href="https://www.instagram.com/phamishedcoach/">
-          DM me on Instagram to get the conversation started!
-          </PurpleButton>
-
-          <br></br>
-          <br></br>
-
-          <GreenButton href="https://forms.gle/uR9ZQ8sAPUZk6UH4A">
-          New Client Questionaire
-          </GreenButton>
         </div>
       </section>
     </>
