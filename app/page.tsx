@@ -200,12 +200,12 @@ export default function HomePage() {
           <Masonry
             items={masonryItems}
             ease="power3.out"
-            duration={0.6}
-            stagger={0.05}
-            animateFrom="bottom"
-            scaleOnHover={true}
-            hoverScale={0.95}
-            blurToFocus={true}
+            duration={0}
+            stagger={0}
+            animateFrom="center"
+            scaleOnHover={false}
+            hoverScale={1}
+            blurToFocus={false}
             colorShiftOnHover={false}
           />
         </div>
