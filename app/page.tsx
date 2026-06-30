@@ -139,7 +139,7 @@ export default function HomePage() {
             • Grocery Recommendations <br/>
             • Cooking Technique/Equipment Recommendations <br/>
             • Progress Photo Assessments <br/>
-            • Sleep Monitoring
+            • Sleep Monitoring <br/>
             • Cardio Recommendations <br/>
             • Nutrition Tips for Traveling <br/>
             • Supplementation Protocols <br/>
