@@ -80,7 +80,7 @@ export default function Hero() {
 
         {/* Hero Text */}
         <h1 className="text-white text-[28px] md:text-[30px] leading-tight text-center md:text-left max-w-[650px] font-bold">
-          Champion's Coach. Registered Dietitian. Your Unfair Advantage.
+          Champion's Coach. Registered Dietitian. <br/> Your Unfair Advantage.
         </h1>
       </section>
 

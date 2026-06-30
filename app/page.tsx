@@ -126,11 +126,23 @@ export default function HomePage() {
           </h2>
 
           <p className="text-white text-lg sm:text-xl lg:text-2xl leading-relaxed">
-            Services provided include (and are not limited to) nutrition goal setting, prescribed calories & macronutrients, 
-            meal planning, weight monitoring, nutrition interventions, dietary intake log assessments, competition preparation, 
-            weight cut protocols, hydration techniques, gameday nutrition, grocery recommendations, cooking technique/equipment 
-            recommendations, progress photo assessments, sleep monitoring, cardio recommendations, nutrition tips for traveling 
-            and supplementation protocols.
+            Services provided include (and are not limited to).. <br/> <br/>
+            • Nutrition Goal Setting <br/>
+            • Prescribed Calories & Macronutrients <br/>
+            • Meal Planning <br/>
+            • Weight Monitoring <br/>
+            • Nutrition Interventions <br/>
+            • Dietary Intake Log Assessments <br/>
+            • Competition Preparation & Weight Cut Protocols <br/>
+            • Hydration Techniques <br/>
+            • Gameday Nutrition <br/>
+            • Grocery Recommendations <br/>
+            • Cooking Technique/Equipment Recommendations <br/>
+            • Progress Photo Assessments <br/>
+            • Sleep Monitoring
+            • Cardio Recommendations <br/>
+            • Nutrition Tips for Traveling <br/>
+            • Supplementation Protocols <br/>
           </p>
         </div>
       </section>
