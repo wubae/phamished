@@ -126,7 +126,7 @@ export default function HomePage() {
           </h2>
 
           <p className="text-white text-lg sm:text-xl lg:text-2xl leading-relaxed">
-            Services provided include (and are not limited to).. <br/> <br/>
+            Services provided include (and are not limited to): <br/> <br/>
             • Nutrition Goal Setting <br/>
             • Prescribed Calories & Macronutrients <br/>
             • Meal Planning <br/>
@@ -154,17 +154,17 @@ export default function HomePage() {
           </h2>
 
           <p className="text-white text-lg sm:text-xl lg:text-2xl leading-relaxed">
-            My standard individual adult nutrition coaching rate is $524 USD upfront for the first three months and $169 per month thereafter.
+            My standard individual adult nutrition coaching rate is $524 USD upfront for the first three months and $169/month thereafter.
             
             <br/><br/>
 
-            Discount for qualified students, educators, military, first responders, and healthcare workers:  $474 USD upfront for the first 
-            three months and $159/mo thereafter. 
+            ***Discount for qualified students, educators, military, first responders, and healthcare workers: $474 USD upfront for 
+            the first three months and $159/month thereafter.
             
             <br/><br/>
 
-            This is a fixed rate and will not change as long as we continue working together. 
-            Accepted payment methods are Stripe (accepts credit card and international payments), Venmo, and Zelle.
+            <u>This is a fixed rate and will not change as long as we continue working together. 
+            Accepted payment methods are Stripe (accepts credit card and international payments), Venmo, and Zelle.</u>
           </p>
 
           <br/><br/>
