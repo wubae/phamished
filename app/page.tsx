@@ -8,7 +8,7 @@ import GreenButton from "../components/GreenButton";
 const masonryItems = [
   {
     id: "1",
-    img: "/mason/1.png",
+    img: "/mason/11.jpg",
     url: "https://example.com/",
     height: 800,
   },
@@ -38,9 +38,9 @@ const masonryItems = [
   },
   {
     id: "6",
-    img: "/mason/6.png",
+    img: "/mason/12.jpg",
     url: "https://example.com/",
-    height: 1000,
+    height: 500,
   },
     {
     id: "7",
@@ -65,6 +65,12 @@ const masonryItems = [
     img: "/mason/10.png",
     url: "https://example.com/",
     height: 800,
+  },
+      {
+    id: "11",
+    img: "/mason/6.png",
+    url: "https://example.com/",
+    height: 600,
   },
   // add more items if you want
 ]
